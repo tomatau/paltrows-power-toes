@@ -6,4 +6,10 @@ The code is organised into different branches which have progressively more comp
 
 ## The branches
 
-1. `1-setup`
+### 1. Setup
+
+First you can checkout the basic layout branch.
+
+```bash
+git checkout 1-setup
+```
