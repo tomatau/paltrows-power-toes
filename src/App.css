@@ -1,0 +1,27 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.App > main {
+  flex: 1;
+}
+
+.App > header {
+  background-color: #333;
+  color: #fcfaf1;
+}
+
+.App > nav {
+  background-color: #222;
+}
+
+.App > main p {
+  color: #444;
+}
+
+.App > footer {
+  background-color: #555;
+  color: #e0dfda;
+}
