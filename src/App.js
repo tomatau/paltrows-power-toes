@@ -5,6 +5,7 @@ import Header from './Header'
 import Footer from './Footer'
 import HomePage from './HomePage'
 import AboutPage from './AboutPage'
+import WorkoutsPage from './WorkoutsPage'
 import './App.css'
 
 export default class App extends Component {
@@ -20,6 +21,7 @@ export default class App extends Component {
         <main>
           <Route exact path='/' component={HomePage} />
           <Route path='/about' component={AboutPage} />
+          <Route path='/workouts' component={WorkoutsPage} />
         </main>
         <footer>
           <Footer />
